@@ -8,7 +8,7 @@ agent any
    stages{
    stage('GIT'){
       steps{
-         git branch: 'Feature-1', credentialsId: 'GitHub', url: 'https://github.com/lakshmisagarhe/maven-project.git'
+         git branch: 'main', url: 'https://github.com/lakshmisagarhe/assignment.git'
       }
    }
 
